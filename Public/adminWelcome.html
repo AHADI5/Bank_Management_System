@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Home</title>
+</head>
+<body>
+    <div class="adminHome">
+        <div class="header static flex">
+            <div class="logo">Logo</div>
+            <div class="dateTime">Date <br> Time</div>
+            <div class="profile flex">
+               <div class="profileimg"> <img src="./index.png" alt="profile" class="profileimage"></div>
+               <div class="adminInfo">
+                <p id="name">Name</p>
+                <p id="job">Job</p>
+               </div>
+            </div>
+            <div class="newMessagesNotifications flex">
+                <div class="message">
+                    <i class="fa fa-envelope" id="message"></i>
+                    <span class="number">4</span>
+                </div>
+                <div class="notif">
+                    <i class="fa fa-bell" id="message"></i>
+                    <span class="number">4</span>
+
+                </div>
+
+                <div class="logout"><i class="fa fa-sign-out"></i></div>
+               
+
+            </div>
+        </div>
+
+        <div class="recentZone flex">
+            <div class="static menu flex">
+                <div class="menuContent">
+                    <div class="userRelatedMenu">
+                        <div class="home"> <a href=""><i class="fa fa-home"></i> <span class="textmenu">Home</span></a> </div>  
+                        <div class="addUser"> <a href=""><i class="fa fa-user-plus"></i><span class="textmenu">Add User</span></a></div>
+                        <div class="userList"> <a href=""><i class="fa fa-users"></i> <span class="textmenu">Users</span></a> </div>
+                        <div class="accountsList"> <a href=""><i class="fa fa-check"></i> <span class="textmenu">Approval</span> </a> </div>
+                        <div class="overView"><a href=""><i class="fa fa-tasks"></i>  <span class="textmenu">Overview</span></a> </div>
+                    </div>
+                    <div class="accountRelatedMenu">
+                        <div class="createAccount"> <a href=""><i class="fa fa-plus"></i> <span class="textmenu">Create</span> </a> </div>
+                        <div class="accountsList"> <a href=""><i class="fa fa-user-circle"></i> <span class="textmenu">Accounts</span> </a> </div>
+                        <div class="accountsList"> <a href=""><i class="fa fa-list-alt"></i> <span class="textmenu">Summary</span> </a> </div>
+                    </div>
+                </div>
+            </div>
+            <div class="notificationszone dynamic flex">
+                <div class="notifications flex" >
+                    <div class="newUser">
+                        <span class="icon"><i class="fa fa-users"></i> <span class="new">New User</span> </span>
+                        <span class="number">20</span>
+                    </div>
+                    <div class="newManager">
+                        <span class="icon"><i class="fa fa-user"></i> <span class="new">Manager</span> </span>
+                        <span class="number">50</span>
+                    </div>
+
+                    <div class="troubleShootings">
+                        <span class="icon"><i class="fa fa-cog"></i> <span class="new">Troubles</span> </span>
+                        <span class="number">50</span>
+                    </div>
+                    <div class="otherKind">
+                        <span class="icon"><i class="fa fa-list-alt"></i> <span class="new">Other</span> </span>
+                        <span class="number">50</span>
+                    </div>
+    
+                </div>
+    
+                <div class="recentManagerOperations">
+                    
+                    <div class="operations flex">
+                        <div class="username flex">
+                            <div class="profileImage">
+                                <img src="./index.png" alt="profileimage">
+                            </div>
+                            <div class="name">Gloire Ahadi</div>
+
+                        </div>
+                        <div class="userTitle">
+                            Manager
+                        </div>
+                        <div class="recentOperations">
+                            Registering
+
+                        </div>
+                        <div class="dateAndTime">
+                            Today
+                        </div>
+                        <div class="status">
+                            Active
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

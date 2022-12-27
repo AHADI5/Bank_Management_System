@@ -1,0 +1,265 @@
+/* 
+Admin & Manager login page Design
+*/
+:root {
+    --blue :#0A84FF;
+    --nearWhite : #EBE8E8;
+    --doubleNearWhite: #c2bfbf;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    line-height: 0,5px;
+}
+
+/* utilities */
+
+.flex {
+    display: flex;
+}
+.grid {
+    display: grid;
+}
+.block {
+    display: block;
+}
+.adminLoginPage {
+    justify-content: center;
+    padding-top: 200px;
+    
+}
+/* Welcome */
+.welcome {
+    background-color: var(--blue);
+    color: white;
+    height: 100px;
+    
+}
+
+.welcome p {
+    padding-left: 40px;
+    padding-top: 38px;
+    font-size: 30px;
+}
+/* formular */
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.formular{
+ 
+    width: 35%;
+    box-shadow: rgba(149, 157, 165, 0.25) 0px 8px 30px
+}
+
+.formularActions{
+    gap: 50px;
+}
+
+.formular input {
+    border-top: 0px;
+    border-left:0px ;
+   border-right: 0px;
+   width: 80%;
+}
+
+.formular label {
+    padding-bottom: 0px;
+
+    /* to be treated in a js file */
+    display: none;
+}
+
+.formular form {
+    padding-top: 40px;
+    padding-left: 40px;
+    height: 180px;
+    
+}
+
+.formularActions{
+    padding-top: 40px;
+    gap: 140px;
+}
+
+.formularActions a{
+    padding-top: 10px;
+    font-size: small;
+}
+
+#adminLogin {
+    width: 20%;
+    height: 30px;
+    border: none;
+    background-color: var(--blue);
+    color: white;
+    border-radius: 5px;
+}
+
+/* Admin home page  screen style  */
+
+/* static header */
+.header {
+    justify-content: space-around;
+    gap: 20px;
+    padding-top: 20px;
+    background-color: white;
+}
+
+.notif,.message {
+    position: relative;
+    border-radius: 5px;
+    width: 10px;
+    font-size: 25px;
+    gap: 20px;
+    text-align: center;
+
+}
+.logout {
+    font-size: 25px;
+}
+.number {
+   
+    position: absolute;
+    color: white;
+    font-size: small;
+    width:3px;
+    color: var(--blue);
+    /* padding: 5px 10px; */
+    top: -10px;
+    right: -10px;
+    
+}
+
+.newMessagesNotifications {
+   gap: 30px;
+}
+
+.adminHome {
+    background-color: var(--nearWhite);
+}
+
+.menu {
+    background-color: var(--blue) ;
+    width: 10%;
+    color: white;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.menuContent div {
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.userRelatedMenu div:hover,.accountRelatedMenu div:hover {
+    background-color: black;
+   padding: 20px;
+}
+.userRelatedMenu {
+    padding-top :50px; 
+}
+.userRelatedMenu,.accountRelatedMenu {
+    padding-bottom: 20px;
+}
+
+.textmenu {
+    font-size: 13px;
+}
+
+
+
+.profile {
+    gap: 20px;
+}
+
+.profileimg {
+    width: 50px;
+   
+}
+
+.profileimage {
+    border-radius: 50%;
+    width: 100%;
+}
+
+.notificationszone{
+    width: 90%;
+    margin: 20px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.notifications{
+
+    margin-bottom: 5px;
+    color: var(--nearWhite) ;
+    gap: 110px;
+}
+
+.notifications div {
+    background-color: white;
+    font-size: 50px;
+    width: 20%;
+    border-radius: 5px;
+    position: relative;
+    padding: 15px;
+}
+
+
+
+.notifications .number{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    padding: 8px;
+    font-weight: 900;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: var(--nearWhite);
+    background-color: var(--doubleNearWhite);
+    color: var(--blue);
+
+
+}
+
+.new {
+     color: black;
+     font-size: small;
+    
+    
+}
+.recentManagerOperations {
+    background-color: white;
+    padding: 10px;
+}
+
+/* operations */
+.operations{
+    justify-content: space-between;
+}
+.username {
+    gap: 20px;
+}
+
+.profileImage{
+    width: 30px;
+}
+
+.profileImage img{
+    border-radius: 50%;
+    width: 100%;
+}
+.name,.userTitle,.recentOperations,.dateAndTime,.status {
+    padding-top: 5px;
+}
+
+
+
+
+
+

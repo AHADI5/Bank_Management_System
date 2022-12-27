@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Admin Login Page</title>
+</head>
+<body>
+   <div class="adminLoginPage flex">
+        <div class="formular">
+            <div class="welcome"><p>Welcome Back !</p></div>
+            <form action="" method="post">
+
+                <div class="adminUsername">
+                    <label id="labelname" for="adminUserName">UserName</label> <br> <input type="text" name="adminLoginPage" placeholder="userName" id="name" onfocus="label()" >
+                </div>
+                <div class="adminPassword">
+                    <label for="adminUserName">password</label> <br><input type="password" name="adminPassword" placeholder="passWord"> 
+                </div>
+                
+                <div class="formularActions flex">
+                    <a href="#">Forgot passWord?</a>
+                    <button type="submit" id="adminLogin">Login</button>
+                </div>
+            </form>
+        </div>
+        
+   </div>
+
+
+   <script src="./form.js"></script>
+</body>
+</html>
